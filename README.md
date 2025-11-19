@@ -1,1 +1,1 @@
-# Netflix
+I created a Netflix-style web application using ReactJS. The app displays movies and web series using APIs, shows categories like Trending, Popular, and Top Rated, and includes a movie details page. I implemented components, routing, responsive UI, and data fetching using Axios. This project helped me understand API integration, component-based architecture, and building real-world React applications.
