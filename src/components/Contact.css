@@ -1,0 +1,58 @@
+/* Background image */
+.contact-container {
+  background-image: url("../images/Contact.png"); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Overlay box */
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.6); /* dark transparent box */
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.contact-title {
+  color: orange;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Form inputs */
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+}
+
+/* Button */
+.contact-button {
+  background-color: orange;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: darkorange;
+  transform: scale(1.05);
+}
